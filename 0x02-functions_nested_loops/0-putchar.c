@@ -8,7 +8,7 @@ int main(void)
 {
 	char *pointer = "_putchar";
 
-	while (*pointer);
+	while (*pointer)
 	{
 		_putchar(*pointer);
 		pointer++;
