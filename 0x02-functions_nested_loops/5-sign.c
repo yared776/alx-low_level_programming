@@ -6,23 +6,19 @@
  */
 int print_sign(int n)
 {
-	char p = '+';
-	char ne = '-';
-	char z = '0';
-
 	if (n > 0)
 	{
-		_putchar(p);
+		_putchar(43);
 		return (1);
 	}
 	else if (n == 0)
 	{
-		_purchar(z);
+		_purchar(48);
 		return (0);
 	}
 	else
 	{
-		_putchar(ne);
+		_putchar(45);
 		return (-1);
 	}
 }
