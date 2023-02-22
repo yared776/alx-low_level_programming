@@ -2,7 +2,7 @@
 /**
  * print_sign - Sign of a number.
  * @n: is a number
- * Return: 1 (+ve) 0 (Zero) -1 (-ve)
+i * Return: 1 (+ve) 0 (Zero) -1 (-ve)
  */
 int print_sign(int n)
 {
@@ -13,7 +13,7 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		_purchar(48);
+		_putchar(48);
 		return (0);
 	}
 	else
